@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+#gImg {
+  position: absolute;
+  height: 2.3rem;
+  width: 5.5rem;
+  left: 1%;
+}
+
+main {
+  align-items: flex-start;
+  padding: 1.5rem 4rem;
+  justify-content: flex-start;
+  width: 80vw;
+}
+
+.heading {
+  border-bottom: 1px solid rgb(218, 211, 211);
+  padding: 1.5rem 3rem;
+}
+
+h3 {
+  color: #d93025;
+}
+
+.container {
+  padding: 2rem 3rem;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  color: #333;
+}
+
+.item1 p {
+  display: inline-block;
+}
+.item1 p:nth-child(2) {
+  padding-left: 41rem;
+  font-weight: bold;
+  color: #777;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.item p {
+  width: 16rem;
+  font-size: 0.9rem;
+}
+.item p:nth-child(3) {
+  width: 30rem;
+  font-size: 0.7rem;
+}
+.item input[type=text] {
+  width: 45rem;
+  padding: 0.37rem;
+  box-sizing: border-box;
+  border: 1px solid rgb(218, 211, 211);
+}
+.item input[type=text]:focus {
+  outline: 1px solid #4d90fe;
+  box-shadow: inset 1px 1px 2px rgb(218, 211, 211);
+}
+
+.item6 {
+  width: 20rem;
+  margin-left: 41.3rem;
+  margin-top: 1rem;
+}
+.item6 input {
+  padding: 0.5rem 0.7rem;
+  color: white;
+  background-color: #4d90fe;
+  border: none;
+  border-radius: 2px;
+}
+.item6 input:hover {
+  background-color: #3a7eec;
+}
+
+/*# sourceMappingURL=advancedStyles.css.map */
